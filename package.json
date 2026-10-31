@@ -1,0 +1,25 @@
+{
+  "name": "stealth-game-server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Franek_Le",
+  "type": "module",
+  "main": "dist/main/main.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "@types/ws": "^8.18.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "object-sizeof": "^2.6.5",
+    "onnxruntime-node": "^1.30.0",
+    "sharp": "^0.35.5",
+    "ws": "^8.22.0"
+  }
+}
